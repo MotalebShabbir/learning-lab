@@ -13,9 +13,10 @@ Operations: `push()`, `pop()`, `peek()`, `isEmpty()` — all O(1).
 
 ## Solved problem
 
-| #   | Problem           | Link                                                                                  | Defficulty |
-| --- | ----------------- | ------------------------------------------------------------------------------------- | ---------- |
-| 20  | Valid Parentheses | [🔗 LeetCode](https://leetcode.com/problems/valid-parentheses/submissions/1851089143) | 🟢 Easy    |
+| #   | Problem           | Link                                                                                | Defficulty |
+| --- | ----------------- | ----------------------------------------------------------------------------------- | ---------- |
+| 20  | Valid Parentheses | [ LeetCode](https://leetcode.com/problems/valid-parentheses/submissions/1851089143) | Easy       |
+| 155 | Mini Stack        | [Leetcode](https://leetcode.com/problems/min-stack/submissions/1862271328)          | Medium     |
 
 ---
 
