@@ -10,15 +10,15 @@ This is my personal learning repository where I document and practice everything
 
 ```
 learning-lab/
-├── core/         # fundamentals
-├── frontend/     # UI, HTML, CSS, frameworks
-├── backend/      # Node.js, APIs, databases
+├── cs-fundamentals/
+├── frontend/
+├── backend/
 └── README.md
 ```
 
 ## Currently Learning
 
--  TypeScript — types, interfaces, generics, and beyond
+- [My Learning Roadmap](https://motalebshabbiros.vercel.app)
 
 ## Goal
 
