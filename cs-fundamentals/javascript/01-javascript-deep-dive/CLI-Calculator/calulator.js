@@ -26,8 +26,8 @@ async function takeNumber(msg) {
   }
 }
 async function validOpertor(msg) {
-  let op = await ask(msg);
   while (true) {
+    let op = await ask(msg);
     if (op == "+") return 1;
     else if (op == "-") return 2;
     else if (op == "*") return 3;
