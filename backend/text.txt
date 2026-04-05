@@ -1,1 +1,0 @@
-mkdir -p 01-nodejs-fundamentals/{01-node-basics,02-module-system/{commonjs,esm},03-fs-module,04-path-os-module,05-npm-dotenv-nodemon,06-project-todo-app}
