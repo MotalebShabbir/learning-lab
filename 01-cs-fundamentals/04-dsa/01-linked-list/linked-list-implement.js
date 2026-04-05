@@ -7,46 +7,44 @@ class Node {
 class LinkedList {
     constructor() {
         this.head = null;
+        this.tail = null;
         this.size = 0;
     }
     insertAtFront(value) {
         let newNode = new Node(value);
         if (this.head === null) {
-            this.head = newNode;
-            this.size++;
-            return;
+            this.tail = newNode;
         }
-        let current = this.head;
+        newNode.next = this.head;
         this.head = newNode;
-        this.head.next = current;
         this.size++;
     }
     insertAtTail(value) {
         const newNode = new Node(value);
         if (this.head === null) {
             this.head = newNode;
-            this.size++;
-            return;
+            this.tail = newNode
+        } else {
+            this.tail.next = newNode;
+            this.tail = newNode;
         }
-        let current = this.head;
-        while (current.next !== null) {
-            current = current.next;
-        }
-        current.next = newNode;
         this.size++;
     }
     deleteElement(value) {
         if (this.head === null) return;
         if (this.head.value === value) {
             this.head = this.head.next;
-            console.log(11111);
             this.size--;
             return;
         }
         let current = this.head;
         while (current.next !== null) {
             if (current.next.value === value) {
+                if (current.next === this.tail) {
+                    this.tail = current;
+                }
                 current.next = current.next.next;
+
                 this.size--;
                 return;
             }
@@ -54,7 +52,7 @@ class LinkedList {
         }
         console.log(value + " not found");
     }
-    print() {
+    elements() {
         const arr = [];
         let current = this.head;
         while (current !== null) {
@@ -74,5 +72,9 @@ list.insertAtTail(60);
 list.insertAtTail(70);
 list.insertAtTail(80);
 list.deleteElement(50);
+list.insertAtTail(90);
+list.deleteElement(90);
+list.insertAtTail(95);
+list.insertAtTail(100);
 console.log(list.size);
-console.log(list.print());
+console.log(list.elements());
