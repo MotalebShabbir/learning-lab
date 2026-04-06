@@ -16,14 +16,14 @@
 
 ## Practice Log
 
-| # | Topics & Practice code | Score |
-|---|--------|-------|
-| 1 | [Variable swap, type checking, truthy/falsy, strict equality](./01-variables-coercion.js) | 4/5 |
-| 2 | [FizzBuzz, loops, switch, for...of](./02-control-flow.js) | 4/5 |
-| 3 | [Arrow functions, callbacks, closures, rest operator](./03-functions-scope.js) | 4/5 |
-| 4 | [map, filter, find, some, every](./04-array-methods-basic.js) | 5/5 |
-| 5 | [reduce (sum, max, tally), method chaining](./05-array-methods-advanced.js) | 5/5 |
-| 6 | [String reversal, palindrome, dedup, flatten, group by](./06-algorithm-logic.js) | 5/5 |
+| #   | Topics & Practice code                                                                    | Score |
+| --- | ----------------------------------------------------------------------------------------- | ----- |
+| 1   | [Variable swap, type checking, truthy/falsy, strict equality](./01-variables-coercion.js) | 4/5   |
+| 2   | [FizzBuzz, loops, switch, for...of](./02-control-flow.js)                                 | 4/5   |
+| 3   | [Arrow functions, callbacks, closures, rest operator](./03-functions-scope.js)            | 4/5   |
+| 4   | [map, filter, find, some, every](./04-array-methods-basic.js)                             | 5/5   |
+| 5   | [reduce (sum, max, tally), method chaining](./05-array-methods-advanced.js)               | 5/5   |
+| 6   | [String reversal, palindrome, dedup, flatten, group by](./06-algorithm-logic.js)          | 5/5   |
 
 **Total: 26/30** — reviewed & scored by AI mentor
 
