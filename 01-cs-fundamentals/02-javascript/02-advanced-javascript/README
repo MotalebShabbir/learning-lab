@@ -1,0 +1,37 @@
+# 📘 02 — Advanced JavaScript
+
+> All problems solved independently — no copy-pasting.
+
+---
+
+## 📂 Files
+
+| File                                                               | Topic                            |
+| ------------------------------------------------------------------ | -------------------------------- |
+| [01-destructuring.js](./01-destructuring.js)                       | Object & Array Destructuring     |
+| [02-spread-rest.js](./02-spread-rest.js)                           | Spread, Rest & Template Literals |
+| [03-callbacks-hof.js](./03-callbacks-hof.js)                       | Callbacks, HOFs & Closures       |
+| [04-promises-async.js](./04-promises-async.js)                     | Promises & async/await           |
+| [05-event-loop-algorithms.js](./05-event-loop-algorithms.js)       | Event Loop & Logic Problems      |
+| [06-classes.js](./06-classes.js)                                   | Classes & Inheritance            |
+| [CLI-prayer-time/prayer-time.js](./CLI-prayer-time/prayer-time.js) | 🕌 Bonus: CLI Prayer Time App    |
+
+---
+
+## 🕌 Bonus Project: CLI Prayer Time
+
+Fetches live Islamic prayer times for any city and highlights the next upcoming prayer in the terminal.
+
+```bash
+cd CLI-prayer-time
+node prayer-time.js
+```
+
+**Concepts used:** `readline`, `async/await`, `fetch`, `Date` manipulation, ANSI terminal colors.
+
+---
+
+## 👤 Author
+
+**Shabbir** — Self-taught developer, Bangladesh  
+[![GitHub](https://img.shields.io/badge/GitHub-motalebshabbir-181717?logo=github)](https://github.com/motalebshabbir)
