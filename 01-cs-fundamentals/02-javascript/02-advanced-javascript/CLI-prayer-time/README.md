@@ -7,7 +7,7 @@ A command-line app that fetches today's Islamic prayer times for any city in the
 - Fetches live prayer times via [Aladhan API](https://aladhan.com/prayer-times-api)
 - Highlights the next prayer in the terminal
 - Shows time remaining until next prayer
-- Works for any city and country
+- Works for any country name and city name
 
 ## Installation
 
