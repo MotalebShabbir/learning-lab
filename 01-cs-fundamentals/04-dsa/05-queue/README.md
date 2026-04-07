@@ -1,57 +1,90 @@
-# Queue Data Structure
+# Queue Data Structures
 
-## What is a Queue?
+---
 
-A Queue is a linear data structure that follows **FIFO** — First In, First Out.
+## 1. Queue — FIFO
 
-Think of a real queue (line of people). First person in line is first to be served. No cutting.
+First In, First Out. Like a real line — first person served first.
 
 ```
 enqueue(10) → [10]
 enqueue(20) → [10, 20]
-enqueue(30) → [10, 20, 30]
-dequeue()   → returns 10  →  [20, 30]
-front()     → returns 20  →  [20, 30] (unchanged)
+dequeue()   → returns 10 → [20]
+front()     → returns 20
 ```
 
----
+| Method  | Time   |
+| ------- | ------ |
+| enqueue | O(1)   |
+| dequeue | O(n)\* |
+| front   | O(1)   |
 
-## Core Operations
+\*`shift()` moves every element left. Use head pointer for O(1).
 
-| Method       | Description                         | Time Complexity |
-| ------------ | ----------------------------------- | --------------- |
-| `enqueue(v)` | Add value to back of queue          | O(1)            |
-| `dequeue()`  | Remove and return front value       | O(n)\*          |
-| `front()`    | Return front value without removing | O(1)            |
-| `isEmpty()`  | Returns true if queue has no items  | O(1)            |
-| `size()`     | Returns number of items             | O(1)            |
-
-`dequeue()` uses `Array.shift()` which is O(n) — every element shifts left after removal.
-A production Queue uses a head pointer index to achieve O(1) dequeue without shifting.
+**Use cases:** Printer queue, BFS traversal, CPU scheduling, JS Event Loop.
 
 ---
 
-## Real World Use Cases
+## 2. Deque — Double-Ended Queue
 
-- **Printer queue** — first document sent is first printed
-- **Task scheduling** — CPU processes tasks in the order they arrive
-- **BFS (Breadth First Search)** — graph/tree traversal uses a queue to explore level by level
-- **Event loop** — JavaScript's callback queue is a real queue
-- **Customer support tickets** — oldest ticket handled first
+Add and remove from **both ends.** Stack + Queue combined.
+
+```
+addBack(10)   → [10]
+addBack(20)   → [10, 20]
+addFront(5)   → [5, 10, 20]
+removeFront() → returns 5  → [10, 20]
+removeBack()  → returns 20 → [10]
+```
+
+| Method      | Time   |
+| ----------- | ------ |
+| addBack     | O(1)   |
+| addFront    | O(n)\* |
+| removeBack  | O(1)   |
+| removeFront | O(n)\* |
+
+\*`unshift/shift` are O(n). Use Doubly LinkedList internally for O(1) all sides.
+
+**Use cases:** Sliding window problems, undo/redo, palindrome check.
 
 ---
 
-## Implementation
+## 3. Circular Queue — Fixed-Size Ring Buffer
 
-See [`queue.js`]('queue.js') in this folder for the full JavaScript implementation. [file link]('./queue.js')
+Fixed capacity. Rear pointer wraps around to reuse empty front slots.
 
-## Stack vs Queue — Key Difference
+```
+capacity = 4
+enqueue(10) → [10,  _,  _,  _]
+enqueue(20) → [10, 20,  _,  _]
+dequeue()   → [ _, 20,  _,  _]  front moves
+enqueue(50) → [50, 20,  _,  _]  rear wraps around
+```
 
-| Feature  | Stack          | Queue           |
-| -------- | -------------- | --------------- |
-| Order    | LIFO           | FIFO            |
-| Add      | push — top     | enqueue — back  |
-| Remove   | pop — top      | dequeue — front |
-| Use case | Undo, back btn | BFS, scheduling |
+Key math:
+
+```js
+this.rear = (this.rear + 1) % this.capacity; // wraps around
+```
+
+| Method  | Time |
+| ------- | ---- |
+| enqueue | O(1) |
+| dequeue | O(1) |
+| isFull  | O(1) |
+| isEmpty | O(1) |
+
+**Use cases:** CPU round-robin scheduling, audio/video stream buffer, keyboard input buffer.
 
 ---
+
+## Quick Comparison
+
+| Feature   | Queue      | Deque          | Circular Queue |
+| --------- | ---------- | -------------- | -------------- |
+| Add       | back only  | front + back   | back (wraps)   |
+| Remove    | front only | front + back   | front (wraps)  |
+| Size      | dynamic    | dynamic        | fixed          |
+| Key trick | shift()    | unshift/shift  | modulo %       |
+| Best for  | BFS, order | sliding window | buffers        |
