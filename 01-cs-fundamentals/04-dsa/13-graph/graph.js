@@ -32,6 +32,23 @@ class Graph {
     });
     delete this.adjList[vertex];
   }
+  bfs(start) {
+    const result = [];
+    if (!this.adjList[start]) return result;
+    const visited = new Set([start]);
+    const queue = [start];
+    while (queue.length > 0) {
+      const vertex = queue.shift();
+      result.push(vertex);
+      for (let neighbour of this.adjList[vertex]) {
+        if (!visited.has(neighbour)) {
+          visited.add(neighbour);
+          queue.push(neighbour);
+        }
+      }
+    }
+    return result;
+  }
 }
 // Usage
 const g = new Graph();
@@ -39,10 +56,13 @@ g.addVertex("A");
 g.addVertex("B");
 g.addVertex("C");
 g.addVertex("D");
-g.addEdge("A", "C");
-g.addEdge("B", "C");
+g.addVertex("E");
 g.addEdge("A", "B");
-g.removeEdge("A", "B");
-g.removeVertex("B");
+g.addEdge("A", "C");
+g.addEdge("B", "D");
+g.addEdge("C", "D");
+g.addEdge("D", "E");
 
-console.log(g);
+console.log(g.bfs("A")); // ["A", "B", "C", "D", "E"]
+
+//console.log(g);
