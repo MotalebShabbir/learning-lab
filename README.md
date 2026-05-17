@@ -1,36 +1,36 @@
 # 🚀 Backend Engineer | AI & Automation
 
-### 80 Weeks | The Complete Path
+### 100 Weeks | The Complete Path
 
 ---
 
 > **Weeks are not a deadline. They are progress.** Move at your own pace. This is a map, not a clock.
 
-> **Positioning:** I build secure backends, AI & Smart Automation business workflows and keep systems protected.
+> **Positioning:** I build secure backends, AI & Smart Automation business workflows, and keep systems protected.
 
 ---
 
-> **Stack:** JavaScript + Python + Node.js + Express + FastAPI + PostgreSQL + React + AI Integration + LangChain + AI Agent + Sentence Transformers + Ollama + pgvector
+> **Stack:** JavaScript · Python · Node.js · Express · FastAPI · PostgreSQL · React · TypeScript · LangChain · LangGraph · AI Agents · Sentence Transformers · Ollama · pgvector · MCP
 
 ---
 
 ## 📌 Phase Overview
 
-| Phase | Weeks | Topic                                                     |
-| ----- | ----- | --------------------------------------------------------- |
-| ✅ 1  | 1–6   | JS + Node.js Core                                         |
-| 2     | 7–14  | CS & DSA (Fundamental Focus)                              |
-| 3     | 15–27 | Backend API — Express + TS + PostgreSQL + Auth + Security |
-| 4     | 28–35 | React (Frontend — Enough to ship)                         |
-| 5     | 36–39 | Python + FastAPI                                          |
-| 6     | 40–47 | AI Integration + AI Security                              |
-| 7     | 48–52 | Workflow Automation — n8n + Custom Scripts                |
-| 8     | 53–60 | Advanced AI — Embeddings, RAG, Agents                     |
-| 9     | 61–64 | Local AI & Cost-Free Automation Tools                     |
-| 10    | 65–68 | Advanced Backend — Redis + Queues + WebSockets            |
-| 11    | 69–72 | System Design                                             |
-| 12    | 73–76 | DevOps + Deployment                                       |
-| 13    | 77–80 | Portfolio + Job/Freelance Prep                            |
+| Phase | Weeks | Topic                                                                                       |
+| ----- | ----- | ------------------------------------------------------------------------------------------- |
+| ✅ 1  | 1–6   | JS + Node.js Core                                                                           |
+| 2     | 7–14  | CS & DSA (Fundamental Focus)                                                                |
+| 3     | 15–27 | Backend API — Express + TS + PostgreSQL + Auth + Security                                   |
+| 4     | 28–35 | React (Frontend — Enough to Ship)                                                           |
+| 5     | 36–39 | Python + FastAPI                                                                            |
+| 6     | 40–53 | AI Engineering — LLM Fundamentals · Prompt/Context Engineering · Tool Use · Security · Cost |
+| 7     | 54–58 | Workflow Automation — n8n + Custom Scripts                                                  |
+| 8     | 59–72 | Advanced AI — RAG · Knowledge Systems · Agents · Evaluation · Multimodal                    |
+| 9     | 73–78 | Local AI & Cost-Free Automation                                                             |
+| 10    | 79–82 | Advanced Backend — Redis · Queues · WebSockets                                              |
+| 11    | 83–88 | System Design + AI Application Architecture                                                 |
+| 12    | 89–94 | DevOps + LLMOps & Observability                                                             |
+| 13    | 95+   | continue                                                                                    |
 
 ---
 
@@ -40,7 +40,7 @@
 <br>
 
 <details>
-<summary>Week 1–6 · JS + Node.js Core</summary>
+<summary>Weeks 1–6 · JS + Node.js Core</summary>
 
 <br>
 
@@ -69,7 +69,7 @@
 > For interview readiness and logical thinking. Language: JavaScript or Python — your choice.
 
 <details>
-<summary>Week 7–8 · Linear Structures</summary>
+<summary>Weeks 7–8 · Linear Structures</summary>
 
 <br>
 
@@ -81,7 +81,7 @@
 </details>
 
 <details>
-<summary>Week 9–10 · Linked List + HashMap</summary>
+<summary>Weeks 9–10 · Linked List + HashMap</summary>
 
 <br>
 
@@ -90,13 +90,13 @@
 - [x] LeetCode #206 (Reverse Linked List)
 - [x] LeetCode #232 (Queue using Stacks)
 - [ ] HashMap, HashSet — concept + collision handling
-- [ ] LeetCode #1 (2Sum)
-- [ ] LeetCode #49 (Group Anagram)
+- [ ] LeetCode #1 (Two Sum)
+- [ ] LeetCode #49 (Group Anagrams)
 
 </details>
 
 <details>
-<summary>Week 11–12 · Trees</summary>
+<summary>Weeks 11–12 · Trees</summary>
 
 <br>
 
@@ -109,7 +109,7 @@
 </details>
 
 <details>
-<summary>Week 13–14 · Graphs + Sorting</summary>
+<summary>Weeks 13–14 · Graphs + Sorting</summary>
 
 <br>
 
@@ -135,7 +135,7 @@
 > The backbone of all automation tools. Security starts here.
 
 <details>
-<summary>Week 15–16 · Express.js</summary>
+<summary>Weeks 15–16 · Express.js</summary>
 
 <br>
 
@@ -149,7 +149,7 @@
 </details>
 
 <details>
-<summary>Week 17–18 · TypeScript + Express</summary>
+<summary>Weeks 17–18 · TypeScript + Express</summary>
 
 <br>
 
@@ -162,7 +162,7 @@
 </details>
 
 <details>
-<summary>Week 19–21 · PostgreSQL + Prisma</summary>
+<summary>Weeks 19–21 · PostgreSQL + Prisma</summary>
 
 <br>
 
@@ -177,7 +177,7 @@
 </details>
 
 <details>
-<summary>Week 22–23 · Auth + Application Security</summary>
+<summary>Weeks 22–23 · Auth + Application Security</summary>
 
 <br>
 
@@ -192,13 +192,13 @@
 - [ ] SQL injection protection — parameterized queries
 - [ ] XSS protection — input sanitization
 - [ ] CSRF protection basics
-- [ ] Environment variable best practices (.env never commit)
+- [ ] Environment variable best practices (.env — never commit)
 - [ ] **Project:** Full auth system with JWT + RBAC
 
 </details>
 
 <details>
-<summary>Week 24–25 · MongoDB (NoSQL)</summary>
+<summary>Weeks 24–25 · MongoDB (NoSQL)</summary>
 
 <br>
 
@@ -222,8 +222,8 @@
 - [ ] Mocking — mock DB calls, mock external APIs
 - [ ] Test coverage — what to measure, what not to chase blindly
 - [ ] Testing auth-protected routes
-- [ ] Testing error cases and edge cases — not just happy path
-- [ ] **Project:** Write full test suite for your auth system (Week 22–23 project)
+- [ ] Testing error cases and edge cases — not just the happy path
+- [ ] **Project:** Write full test suite for the auth system (Week 22–23 project)
 
 </details>
 
@@ -235,13 +235,13 @@
 - [ ] REST conventions — naming, status codes
 - [ ] Pagination, filtering, sorting
 - [ ] API versioning (/api/v1/)
-- [ ] **Swagger / OpenAPI** — document all endpoints with request + response schemas
+- [ ] Swagger / OpenAPI — document all endpoints with request + response schemas
 - [ ] Generate interactive API docs with swagger-ui-express
 - [ ] Writing good endpoint descriptions — for clients and teammates
 - [ ] Deploy to Railway/Render
 - [ ] Enforce HTTPS
 - [ ] Secrets management in production
-- [ ] **Project:** Blog API (Express + TS + PostgreSQL) — Live deployed + fully documented
+- [ ] **Project:** Blog API (Express + TS + PostgreSQL) — live deployed + fully documented
 
 </details>
 
@@ -254,10 +254,10 @@
 
 <br>
 
-> Enough to ship complete products — now you can build the interface for your backends right after learning them.
+> Enough to ship complete products — build the interface for your own backends.
 
 <details>
-<summary>Week 28–29 · React Basics</summary>
+<summary>Weeks 28–29 · React Basics</summary>
 
 <br>
 
@@ -269,7 +269,7 @@
 </details>
 
 <details>
-<summary>Week 30–31 · React Intermediate</summary>
+<summary>Weeks 30–31 · React Intermediate</summary>
 
 <br>
 
@@ -282,7 +282,7 @@
 </details>
 
 <details>
-<summary>Week 32–33 · React + TypeScript</summary>
+<summary>Weeks 32–33 · React + TypeScript</summary>
 
 <br>
 
@@ -293,7 +293,7 @@
 </details>
 
 <details>
-<summary>Week 34–35 · Full Stack Connect</summary>
+<summary>Weeks 34–35 · Full Stack Connect</summary>
 
 <br>
 
@@ -313,7 +313,7 @@
 
 <br>
 
-> Already comfortable with Python? This phase makes it AI‑ready.
+> Already comfortable with Python? This phase makes it AI-ready.
 
 <details>
 <summary>Week 36 · Python for Backend Work</summary>
@@ -330,7 +330,7 @@
 </details>
 
 <details>
-<summary>Week 37–39 · FastAPI</summary>
+<summary>Weeks 37–39 · FastAPI</summary>
 
 <br>
 
@@ -351,81 +351,200 @@
 ---
 
 <details>
-<summary>🔴 Phase 6 — AI Integration + AI Security &nbsp;|&nbsp; Weeks 40–47</summary>
+<summary>🔴 Phase 6 — AI Engineering &nbsp;|&nbsp; Weeks 40–53</summary>
 
 <br>
 
-> This is where you start standing out. You'll learn to use LLM APIs, but keep an eye on cost.
+> This is where you start standing out. Learn how LLMs actually work from an engineer's lens — not just how to call an API.
 
 <details>
-<summary>Week 40–41 · LLM API Basics</summary>
+<summary>Weeks 40–41 · LLM Fundamentals (Engineer's Lens)</summary>
 
 <br>
 
-- [ ] OpenAI API — chat.completions, embeddings
-- [ ] Anthropic API — Messages, system prompts
-- [ ] Token counting — how to reduce usage
-- [ ] Cost optimization strategies
-- [ ] Streaming responses
-- [ ] API key secure storage (never hardcode)
-- [ ] **Project:** AI chatbot — terminal + API endpoint
+> Understand the engine before you drive it. Every cost and latency decision starts here.
+
+- [ ] Tokens, tokenization, and context windows — how they map to cost
+- [ ] Model families and trade-offs: Claude, GPT, Gemini, Llama, Mistral, Qwen, DeepSeek
+- [ ] Closed vs open-weight models — when each makes sense
+- [ ] Sampling parameters: temperature, top_p, top_k, frequency/presence penalty — when to use what
+- [ ] Streaming vs non-streaming responses
+- [ ] Structured outputs — JSON mode, schema-constrained generation
+- [ ] Multimodal inputs overview (vision, audio, PDFs)
+- [ ] Reasoning models vs standard models — when extended thinking helps
+- [ ] OpenAI API — chat completions, basic setup
+- [ ] Anthropic API — Messages API, system prompts
+- [ ] Token counting — how to reduce usage before you build
+- [ ] API key secure storage (never hardcode, never commit)
+- [ ] **Project:** AI chatbot — terminal interface + API endpoint
 
 </details>
 
 <details>
-<summary>Week 42–43 · Prompt Engineering</summary>
+<summary>Weeks 42–43 · Prompt Engineering</summary>
 
 <br>
 
-- [ ] System / User / Assistant roles
-- [ ] Few-shot prompting
-- [ ] Chain-of-thought prompting
-- [ ] Structured output — JSON mode
-- [ ] Temperature, top_p — when to use what
-- [ ] Prompt versioning — tracking which prompts perform best
-- [ ] **Project:** AI reads business email → drafts reply
+> Prompts are code. Version them, test them, improve them.
+
+- [ ] System vs user vs assistant message design
+- [ ] Few-shot examples, role prompting, persona design
+- [ ] Chain-of-thought prompting — step-by-step reasoning
+- [ ] ReAct pattern — reasoning + acting combined
+- [ ] Reflection patterns — self-critique loops
+- [ ] XML/Markdown structuring for reliable, parseable output
+- [ ] Prompt templating and variable injection
+- [ ] Prompt versioning — treating prompts like code (commit, diff, rollback)
+- [ ] Output parsers and graceful failure handling
+- [ ] Prompt injection defense at the prompt layer
+- [ ] **Project:** AI reads a business email → drafts a professional reply
 
 </details>
 
 <details>
-<summary>Week 44–45 · Function Calling + Tool Use</summary>
+<summary>Week 44 · Context Engineering</summary>
 
 <br>
 
-- [ ] OpenAI function calling
-- [ ] Anthropic tool use
-- [ ] AI decides when to call your code
-- [ ] Error handling when tool fails
-- [ ] **Project:** AI assistant — searches DB + answers questions
+> The new "prompt engineering." Most LLM bugs are actually context bugs.
+
+- [ ] Context window budgeting — system prompt, conversation history, tools, retrieval
+- [ ] Conversation summarization and rolling memory — keeping history inside the budget
+- [ ] Prompt caching strategies — Anthropic prefix caching, OpenAI caching
+- [ ] Hierarchical memory: short-term (in-context), long-term (DB), episodic (summaries)
+- [ ] Context compression and pruning — what to drop first
+- [ ] Tool result truncation strategies — when tool output is too long
+- [ ] "Lost in the middle" problem — why models ignore content in the middle of long contexts
+- [ ] **Exercise:** Take your chatbot from Week 40–41, give it persistent memory using summarization
 
 </details>
 
 <details>
-<summary>Week 46–47 · AI-powered API + AI Security</summary>
+<summary>Weeks 45–46 · Tool Use & Function Calling</summary>
 
 <br>
+
+> The AI decides when to call your code. Design tools it can use reliably.
+
+- [ ] Tool/function schema design — clear names, descriptions, typed params
+- [ ] OpenAI function calling — mechanics + error handling
+- [ ] Anthropic tool use — mechanics + error handling
+- [ ] Parallel tool calling — multiple tools in one turn
+- [ ] Model Context Protocol (MCP) — servers, clients, resources, prompts
+- [ ] Sandboxed code execution (E2B, Modal) — running untrusted AI-generated code safely
+- [ ] API wrappers as tools — wrap any REST API so the LLM can call it
+- [ ] Tool result formatting for LLM consumption — how to present results back
+- [ ] Error handling when a tool fails — retry, fallback, inform the model
+- [ ] **Project:** AI assistant — searches your PostgreSQL database + answers natural language questions
+
+</details>
+
+<details>
+<summary>Weeks 47–48 · AI-Powered API + AI Security + Guardrails</summary>
+
+<br>
+
+> Every AI feature is an attack surface. Build defenses in from the start.
+
+**API Integration**
 
 - [ ] Wrap LLM calls in Express/FastAPI endpoints
 - [ ] Per-user rate limiting for AI calls
-- [ ] Redis — response caching to reduce cost
+- [ ] Redis — response caching to reduce token cost
 - [ ] Cost tracking per user/session
-- [ ] **AI Security — Prompt Injection**
-  - [ ] Add guardrails in system prompt
-  - [ ] Sanitize user input before sending to AI
-  - [ ] Enforce instruction hierarchy
-- [ ] **AI Security — Data Leakage**
-  - [ ] Never store sensitive data in system prompt
-  - [ ] Filter AI output before sending to user
-  - [ ] PII (personal info) scrubbing
-- [ ] **AI Security — Rate Abuse**
-  - [ ] Per-user token quota
-  - [ ] Anomaly detection (unusual usage spikes)
-  - [ ] Billing alert setup
-- [ ] **AI Security — Jailbreaking**
-  - [ ] Input pattern detection
-  - [ ] OpenAI Moderation API
-  - [ ] Understanding Anthropic built-in safety layers
-- [ ] **Project:** AI API — auth + usage tracking + AI security layer + deployed
+
+**Prompt Injection**
+
+- [ ] Direct prompt injection — user overwrites system prompt
+- [ ] Indirect prompt injection — injected content from retrieved documents or tools
+- [ ] Enforce instruction hierarchy — system > user > tool results
+- [ ] Add guardrails in system prompt
+- [ ] Sanitize user input before sending to the model
+
+**Data Leakage**
+
+- [ ] Never store sensitive data in the system prompt
+- [ ] Filter AI output before sending to the user
+- [ ] PII (personally identifiable information) scrubbing
+
+**Content Moderation & Jailbreaking**
+
+- [ ] Input pattern detection
+- [ ] OpenAI Moderation API
+- [ ] Llama Guard — open-source content classifier
+- [ ] Understanding Anthropic's built-in safety layers
+
+**Guardrail Frameworks**
+
+- [ ] NeMo Guardrails — declarative conversation control
+- [ ] Guardrails AI — output validation against schemas
+- [ ] Output validation — always validate structured output before using it
+- [ ] Audit logging for compliance — log what went in, what came out
+
+**Rate Abuse Prevention**
+
+- [ ] Per-user token quota
+- [ ] Anomaly detection (unusual usage spikes)
+- [ ] Billing alert setup
+
+- [ ] **Project:** AI API — auth + usage tracking + full AI security layer + deployed
+
+</details>
+
+<details>
+<summary>Weeks 49–50 · Embedding Models + Semantic Search</summary>
+
+<br>
+
+> The foundation of all RAG, semantic search, and recommendation systems.
+
+- [ ] What embeddings are and why they matter — geometric intuition
+- [ ] Local embeddings first: Sentence-Transformers (`all-MiniLM-L6-v2`) — no API, no cost
+- [ ] Paid embedding APIs: OpenAI `text-embedding-3-small`, Voyage AI — when they're worth it
+- [ ] Reranker models — why retrieval + reranking beats retrieval alone (Cohere, BGE)
+- [ ] Vector databases: pgvector (PostgreSQL), Chroma (local), Qdrant, Pinecone
+- [ ] Hybrid search — BM25 keyword + vector similarity + reciprocal rank fusion (RRF)
+- [ ] Metadata filtering and structured retrieval — combine vector search with SQL filters
+- [ ] Embedding data privacy — what not to send to external APIs
+- [ ] **Project:** Semantic document search engine — fully local, no API key required
+
+</details>
+
+<details>
+<summary>Weeks 51–52 · Cost & Performance Optimization</summary>
+
+<br>
+
+> The engineer who controls cost controls the business case for AI.
+
+- [ ] Model cascading — route cheap → expensive based on query complexity
+- [ ] Semantic caching — cache LLM responses by meaning, not exact text
+- [ ] Output caching and prompt caching — reduce repeated computation
+- [ ] Batch APIs for non-real-time workloads — 50% cost reduction on async tasks
+- [ ] Distillation — train a small model on big model outputs for common tasks
+- [ ] Prompt compression — LLMLingua-style techniques to shorten prompts without losing meaning
+- [ ] Token budgeting per feature — set hard limits before building
+- [ ] Model gateways: LiteLLM, Portkey, OpenRouter — one interface, many models
+- [ ] **Exercise:** Optimize the Week 47–48 AI API endpoint — reduce cost by 40% without losing quality
+
+</details>
+
+<details>
+<summary>Week 53 · LLMOps & Evaluation Foundations</summary>
+
+<br>
+
+> You cannot improve what you do not measure. Set up observability before Phase 8.
+
+- [ ] Tracing — what an LLM trace contains (input, output, latency, tokens, cost)
+- [ ] Langfuse — open-source, self-hostable LLM tracing (recommended)
+- [ ] Helicone — lightweight proxy-based tracing
+- [ ] Token, cost, and latency tracking per request and per user
+- [ ] Prompt and agent versioning in production
+- [ ] Offline evals — golden datasets and regression tests
+- [ ] LLM-as-judge basics — use a model to score another model's output
+- [ ] Feedback loops — thumbs up/down from users → eval datasets
+- [ ] **Setup:** Instrument your Week 47–48 AI API with Langfuse tracing
 
 </details>
 
@@ -434,14 +553,14 @@
 ---
 
 <details>
-<summary>🔵 Phase 7 — Workflow Automation &nbsp;|&nbsp; Weeks 48–52</summary>
+<summary>🔵 Phase 7 — Workflow Automation &nbsp;|&nbsp; Weeks 54–58</summary>
 
 <br>
 
-> The skill that sells most easily to business clients — now with custom, token‑free automation.
+> The skill that sells most easily to business clients — automated pipelines that run without touching code.
 
 <details>
-<summary>Week 48–49 · n8n</summary>
+<summary>Weeks 54–55 · n8n</summary>
 
 <br>
 
@@ -454,7 +573,7 @@
 </details>
 
 <details>
-<summary>Week 50 · Make.com + Zapier</summary>
+<summary>Week 56 · Make.com + Zapier (Comparison)</summary>
 
 <br>
 
@@ -465,26 +584,26 @@
 </details>
 
 <details>
-<summary>Week 51 · Business Automation Projects (with n8n)</summary>
+<summary>Week 57 · Business Automation Projects (n8n)</summary>
 
 <br>
 
 - [ ] **Project 1:** Invoice PDF → AI extract data → DB store
-- [ ] **Project 2:** Customer support bot (FAQ → AI → escalate)
+- [ ] **Project 2:** Customer support bot (FAQ → AI → escalate if needed)
 - [ ] **Project 3:** Social media content scheduler with AI
 
 </details>
 
 <details>
-<summary>Week 52 · Custom Automation Scripts (Python)</summary>
+<summary>Week 58 · Custom Automation Scripts (Python)</summary>
 
 <br>
 
-- [ ] Build a file‑watcher that processes new files automatically (watchdog)
+- [ ] Build a file-watcher that processes new files automatically (watchdog)
 - [ ] Python script to extract data from PDFs (PyPDF2, pdfplumber) and store in PostgreSQL
-- [ ] Combine regex + simple logic for field extraction (no AI needed)
+- [ ] Combine regex + simple logic for field extraction (no AI needed for everything)
 - [ ] Write your own tiny automation runner (no n8n, just Python)
-- [ ] **Mini‑Project:** Folder monitor — any new invoice PDF → parsed → saved to DB
+- [ ] **Mini-Project:** Folder monitor — any new invoice PDF → parsed → saved to DB
 
 </details>
 
@@ -493,66 +612,184 @@
 ---
 
 <details>
-<summary>⚫ Phase 8 — Advanced AI (Embeddings, RAG, Agents) &nbsp;|&nbsp; Weeks 53–60</summary>
+<summary>⚫ Phase 8 — Advanced AI (RAG · Agents · Evaluation · Multimodal) &nbsp;|&nbsp; Weeks 59–72</summary>
 
 <br>
 
-> Here you learn the engines that power smart tools — with a clear eye on using **local, zero‑cost** alternatives.
+> Here you build the engines that power smart tools. This is the core of modern AI engineering.
 
 <details>
-<summary>Week 53–54 · Vector Databases + Embeddings (Local‑First)</summary>
+<summary>Weeks 59–61 · RAG & Knowledge Systems</summary>
 
 <br>
 
-- [ ] Embeddings — what they are and why they matter
-- [ ] **Local embeddings first:** Use Sentence‑Transformers (`all-MiniLM-L6-v2`) — no API call, no token cost
-- [ ] Store embeddings in pgvector / Chroma (self‑hosted, free)
-- [ ] Similarity search — build a semantic search engine
-- [ ] Embedding data privacy — what not to store
-- [ ] Compare: local embeddings vs paid APIs (when to use which)
-- [ ] **Project:** Document search with AI (fully local, no API key required)
+> RAG is how you give an LLM access to your data without fine-tuning.
 
-</details>
+**Architecture & Chunking**
 
-<details>
-<summary>Week 55–57 · RAG (Retrieval-Augmented Generation)</summary>
+- [ ] RAG architecture — Embed → Store → Retrieve → Generate pipeline
+- [ ] Chunking strategies: fixed-size, semantic, structural, late chunking
+- [ ] Document parsing pipelines — Unstructured, LlamaParse, Docling
+- [ ] Multimodal RAG — handling images, tables, and charts inside documents
 
-<br>
+**Retrieval Quality**
 
-- [ ] RAG architecture
-- [ ] Document chunking strategies
-- [ ] Embed → Store → Retrieve → Generate pipeline
-- [ ] **Local‑first generation:** Use Ollama + open‑source models (Llama 3, Phi‑3) instead of paid LLM
-- [ ] Fallback to paid API only when local models fail or for heavy reasoning
+- [ ] Query rewriting and expansion — improve recall before retrieval
+- [ ] HyDE (Hypothetical Document Embeddings) — generate a hypothetical answer, embed it, retrieve
+- [ ] Multi-hop retrieval — chain multiple retrieval steps for complex questions
+- [ ] Agentic retrieval — let the model decide what to retrieve
+- [ ] Reranking (Cohere, BGE, Voyage) — always rerank after retrieval
+
+**Advanced Patterns**
+
+- [ ] GraphRAG and knowledge-graph augmentation — structured knowledge + vector search
+- [ ] Metadata filtering — combine vector search with structured DB filters
 - [ ] RAG security — retrieved content injection attack
-- [ ] **Project 1:** "Chat with your PDF" (local LLM + local embeddings)
-- [ ] **Project 2:** Company knowledge base Q&A bot (fully self‑hosted, zero API cost)
+- [ ] Local-first: Ollama + open-source models (Llama 3, Phi-3) instead of paid LLM for generation
+- [ ] Fallback to paid API only when local models fail or heavy reasoning is needed
+
+**Evaluation**
+
+- [ ] RAG metrics: faithfulness, answer relevance, context precision/recall
+- [ ] Ragas framework — automated RAG evaluation
+- [ ] **Project 1:** "Chat with your PDF" — local LLM + local embeddings
+- [ ] **Project 2:** Company knowledge base Q&A bot — fully self-hosted, zero API cost
 
 </details>
 
 <details>
-<summary>Week 58–59 · LangChain + LangGraph</summary>
+<summary>Weeks 62–64 · Agent Frameworks — LangChain + LangGraph</summary>
 
 <br>
 
-- [ ] Chains, Runnables
-- [ ] Memory — conversation history
-- [ ] LangGraph — stateful multi‑step agents
+> Frameworks give you the scaffolding. Understand them deeply before building on top.
+
+**LangChain**
+
+- [ ] Chains and Runnables — the LCEL (LangChain Expression Language) pattern
+- [ ] Memory — conversation history, buffer memory, summary memory
+- [ ] Document loaders and text splitters
+- [ ] Retrieval chains — combine LangChain + your RAG pipeline
+
+**LangGraph**
+
+- [ ] Why graphs over linear chains — branching, loops, state
+- [ ] Nodes, edges, conditional edges
+- [ ] State machines and workflow graphs
+- [ ] LangGraph for stateful multi-step agents
+- [ ] Human-in-the-loop checkpoints — pause and wait for approval
 - [ ] Agent security — tool misuse prevention
-- [ ] **Project:** Research agent — searches web + summarizes (can mix free search + local summary model)
+
+**Alternatives**
+
+- [ ] Mastra (Node.js) — TypeScript-native agent framework
+- [ ] Inngest — durable workflow execution for agents
+
+- [ ] **Project:** Research agent — searches the web + summarizes findings (mix of free search + local summary model)
 
 </details>
 
 <details>
-<summary>Week 60 · AI Agents</summary>
+<summary>Weeks 65–67 · Agents & Agentic Systems (Deep Dive)</summary>
 
 <br>
 
-- [ ] ReAct pattern
-- [ ] Tool‑calling agents
-- [ ] Multi‑agent basics
-- [ ] Agent output validation before execution
-- [ ] **Project:** Business workflow agent — receives task → plans → executes (local LLM wherever possible)
+> Agents are the future of automation. Learn to build them reliably, not just experimentally.
+
+**Agent Loop Patterns**
+
+- [ ] ReAct (Reasoning + Acting) — the core loop
+- [ ] Plan-Execute — plan the whole task first, then execute steps
+- [ ] Reflexion — reflect on failure, retry with improved plan
+- [ ] ReWOO (Reasoning WithOut Observation) — plan without interleaving execution
+
+**Architecture**
+
+- [ ] Single-agent vs multi-agent orchestration
+- [ ] Subagents and delegation patterns — orchestrator spawns specialized agents
+- [ ] Agent memory: scratchpad (in-context), semantic (vector DB), procedural (code/tools)
+- [ ] Long-running agents — durable execution, Temporal, Restate
+
+**Reliability & Safety**
+
+- [ ] Human-in-the-loop checkpoints and approval gates
+- [ ] Error recovery, retries, and self-correction loops
+- [ ] Agent output validation before execution — never execute unvalidated tool calls
+- [ ] Browser agents and computer-use agents — overview + risks
+
+- [ ] **Project:** Business workflow agent — receives a task → plans steps → executes using tools (local LLM wherever possible)
+
+</details>
+
+<details>
+<summary>Weeks 68–69 · Evaluation Engineering</summary>
+
+<br>
+
+> Evals are how you prove your system works. Ship nothing to production without them.
+
+**Offline Evals**
+
+- [ ] Golden datasets — curate 50–100 hand-labeled input/output pairs per feature
+- [ ] Regression tests — run on every code change, catch silent degradations
+- [ ] LLM-as-judge — pairwise comparison, rubric-based scoring (score 1–5 with criteria)
+- [ ] Synthetic data generation for evals — use a model to generate test cases
+
+**RAG-Specific Evals**
+
+- [ ] Faithfulness — does the answer contradict the retrieved context?
+- [ ] Answer relevance — does the answer address the question?
+- [ ] Context precision — is retrieved context actually useful?
+- [ ] Context recall — was all necessary context retrieved?
+- [ ] Ragas framework — automate all of the above
+
+**Agent-Specific Evals**
+
+- [ ] Task success rate — did the agent complete the goal?
+- [ ] Trajectory analysis — did the agent take a reasonable path?
+- [ ] Tool-call accuracy — did the agent call the right tools with right params?
+
+**Frameworks & Production**
+
+- [ ] Promptfoo — prompt regression testing in CI
+- [ ] DeepEval — unit testing for LLM outputs
+- [ ] Braintrust — eval + tracing combined
+- [ ] Online evals on production traffic — sample + score live outputs
+- [ ] Red teaming and adversarial testing — attack your own system
+
+- [ ] **Project:** Eval suite for your RAG system and agent from Weeks 59–67
+
+</details>
+
+<details>
+<summary>Weeks 70–72 · Multimodal Engineering</summary>
+
+<br>
+
+> Beyond text. The next generation of AI products combine vision, voice, and generation.
+
+**Vision & Document AI**
+
+- [ ] Image understanding with vision models (GPT-4o, Claude, Gemini)
+- [ ] OCR-via-LLM — extract structured data from document images
+- [ ] Document AI — process invoices, receipts, forms, contracts with vision
+- [ ] Multimodal RAG — embed images + text together, retrieve across modalities
+
+**Voice Agents**
+
+- [ ] Speech-to-Text (STT): Whisper (local), Deepgram, AssemblyAI
+- [ ] Text-to-Speech (TTS): ElevenLabs, Cartesia, OpenAI TTS
+- [ ] Real-time voice APIs: LiveKit, Vapi, Retell — building voice agents
+- [ ] Latency challenges in voice pipelines — TTFT, streaming TTS, interruption handling
+
+**Image & Video Generation (Overview)**
+
+- [ ] Image generation: Flux, SDXL, DALL-E — concepts + business use cases
+- [ ] ControlNet/LoRA workflows — fine-control over generated images
+- [ ] Video generation overview: Sora, Veo, Runway, Kling
+- [ ] Media pipelines: ComfyUI, Replicate, Fal
+
+- [ ] **Project:** Multimodal document processor — upload a PDF/image of an invoice → extract structured data → store in DB (vision model + local OCR fallback)
 
 </details>
 
@@ -561,57 +798,96 @@
 ---
 
 <details>
-<summary>🟢 Phase 9 — Local AI & Cost‑Free Automation Tools &nbsp;|&nbsp; Weeks 61–64 &nbsp;·&nbsp; Your signature skill</summary>
+<summary>🟢 Phase 9 — Local AI & Cost-Free Automation &nbsp;|&nbsp; Weeks 73–78 &nbsp;·&nbsp; Your Signature Skill</summary>
 
 <br>
 
-> This is where you become the engineer who builds **permanent, zero‑token‑cost smart tools** that businesses can run forever.
+> This is where you become the engineer who builds **permanent, zero-token-cost smart tools** that businesses can run forever on their own servers.
 
 <details>
-<summary>Week 61 · Smart Search & FAQ Engine</summary>
+<summary>Weeks 73–74 · Inference Deep Dive + Local Models</summary>
+
+<br>
+
+> Know what's happening under the hood when a model runs. This is what separates engineers from API callers.
+
+**Inference Servers**
+
+- [ ] API-based vs self-hosted inference — cost and privacy trade-offs
+- [ ] Ollama — the simplest local inference server, run Llama/Phi/Mistral on your machine
+- [ ] llama.cpp — CPU-friendly inference, runs on anything including a Raspberry Pi
+- [ ] vLLM — high-throughput GPU inference server (for production self-hosting)
+- [ ] TGI (Text Generation Inference by Hugging Face)
+- [ ] SGLang — fast structured generation inference
+
+**Quantization**
+
+- [ ] GGUF — the standard format for llama.cpp quantized models
+- [ ] AWQ and GPTQ — GPU-friendly quantization
+- [ ] INT4/INT8 quantization — how it works, what quality you lose
+
+**Performance Tuning**
+
+- [ ] KV cache optimization — what it is, why it matters
+- [ ] Prefix caching — cache common prefixes (e.g., your system prompt)
+- [ ] Speculative decoding — use a small model to draft, large model to verify
+- [ ] Continuous batching and throughput tuning
+- [ ] Latency vs throughput trade-offs — TTFT (time to first token), TPS (tokens per second)
+- [ ] GPU economics, edge inference, on-device models
+
+**Cloud Inference Providers (when local isn't enough)**
+
+- [ ] Together AI, Fireworks AI — fast + cheap open-source model hosting
+- [ ] Groq, Cerebras — hardware-accelerated inference (extremely fast)
+- [ ] Replicate, Bedrock — managed model hosting
+
+</details>
+
+<details>
+<summary>Week 75 · Smart Search & FAQ Engine (Fully Local)</summary>
 
 <br>
 
 - [ ] Build a standalone semantic search service (FastAPI + pgvector)
-- [ ] Embed documents once, store locally, query without any API
-- [ ] Use sentence‑transformers to encode queries on the fly (free)
-- [ ] **Project:** A company FAQ bot — embed the FAQ list, accept questions, return top‑3 answers (no LLM needed)
+- [ ] Embed documents once, store locally, query without any API call
+- [ ] Use Sentence-Transformers to encode queries on the fly (free forever)
+- [ ] **Project:** Company FAQ bot — embed the FAQ list, accept questions, return top-3 answers (no LLM required for retrieval-only use cases)
 
 </details>
 
 <details>
-<summary>Week 62 · Smart Form Fields & Auto‑Categorization</summary>
+<summary>Week 76 · Smart Form Fields & Auto-Categorization</summary>
 
 <br>
 
-- [ ] Train (or download) a lightweight text classifier (e.g., SetFit, fastText)
-- [ ] Auto‑suggest categories/tags for inventory items, support tickets
-- [ ] Combine with embeddings for fuzzy matching
-- [ ] **Project:** Form auto‑fill assistant — given a description, predict category and fill fields (no API call)
+- [ ] Train or download a lightweight text classifier (SetFit, fastText)
+- [ ] Auto-suggest categories/tags for inventory items, support tickets, leads
+- [ ] Combine with embeddings for fuzzy matching and deduplication
+- [ ] **Project:** Form auto-fill assistant — given a description, predict category and fill fields (no API call, runs on any server)
 
 </details>
 
 <details>
-<summary>Week 63 · Local OCR + LLM for Document Processing</summary>
+<summary>Week 77 · Local OCR + LLM for Document Processing</summary>
 
 <br>
 
-- [ ] Use open‑source OCR (Tesseract, PaddleOCR) to extract text from PDFs/images
-- [ ] Run a local LLM (Ollama) to structure that text into JSON (invoice data)
-- [ ] Keep everything on‑premise, no data leakage, no token bills
-- [ ] **Project:** Invoice processor — folder in → structured data in DB out (100% local)
+- [ ] Open-source OCR: Tesseract, PaddleOCR — extract text from PDFs and images
+- [ ] Run a local LLM (Ollama) to structure that text into JSON (invoice line items, dates, totals)
+- [ ] Keep everything on-premise — no data leakage, no token bills
+- [ ] **Project:** Invoice processor — folder in → structured data in PostgreSQL out (100% local pipeline)
 
 </details>
 
 <details>
-<summary>Week 64 · Build Your Own Automation Runner (No n8n, No Cloud)</summary>
+<summary>Week 78 · Build Your Own Automation Runner</summary>
 
 <br>
 
-- [ ] Design a simple Python‑based workflow engine (YAML/JSON config → tasks execute)
-- [ ] Include triggers (file‑watch, HTTP endpoint, cron)
-- [ ] Plug in your local AI tools as steps
-- [ ] **Project:** A self‑hosted automation server that connects your smart tools together — deployable on a small VPS or Raspberry Pi
+- [ ] Design a simple Python-based workflow engine (YAML/JSON config → tasks execute in order)
+- [ ] Include triggers: file-watch, HTTP endpoint, cron schedule
+- [ ] Plug in your local AI tools as steps in the pipeline
+- [ ] **Project:** Self-hosted automation server that connects your smart tools together — deployable on a small VPS
 
 </details>
 
@@ -620,12 +896,12 @@
 ---
 
 <details>
-<summary>🔶 Phase 10 — Advanced Backend &nbsp;|&nbsp; Weeks 65–68</summary>
+<summary>🔶 Phase 10 — Advanced Backend &nbsp;|&nbsp; Weeks 79–82</summary>
 
 <br>
 
 <details>
-<summary>Week 65–66 · Redis + Queues</summary>
+<summary>Weeks 79–80 · Redis + Queues</summary>
 
 <br>
 
@@ -639,17 +915,17 @@
 </details>
 
 <details>
-<summary>Week 67–68 · WebSockets + File Storage</summary>
+<summary>Weeks 81–82 · WebSockets + File Storage</summary>
 
 <br>
 
-- [ ] Socket.io — real‑time notifications, chat
+- [ ] Socket.io — real-time notifications, chat
 - [ ] WebSocket security — auth on connection
 - [ ] Multer — file upload
 - [ ] File type validation — only allow what you expect
 - [ ] Cloudinary / S3 — cloud storage
 - [ ] Signed URLs — secure file access
-- [ ] **Project:** Real‑time notification system
+- [ ] **Project:** Real-time notification system
 
 </details>
 
@@ -658,33 +934,51 @@
 ---
 
 <details>
-<summary>🧠 Phase 11 — System Design &nbsp;|&nbsp; Weeks 69–72</summary>
+<summary>🧠 Phase 11 — System Design + AI Application Architecture &nbsp;|&nbsp; Weeks 83–88</summary>
 
 <br>
 
 <details>
-<summary>Week 69–70 · Fundamentals</summary>
+<summary>Weeks 83–84 · System Design Fundamentals</summary>
 
 <br>
 
 - [ ] Scalability — vertical vs horizontal
-- [ ] Load balancers
-- [ ] CAP theorem
-- [ ] Caching — CDN, Redis
+- [ ] Load balancers — what they do, where they sit
+- [ ] CAP theorem — consistency, availability, partition tolerance
+- [ ] Caching strategies — CDN, Redis, application-level
 - [ ] Security in system design — defense in depth
 
 </details>
 
 <details>
-<summary>Week 71–72 · Design Practice</summary>
+<summary>Weeks 85–86 · System Design Practice</summary>
 
 <br>
 
 - [ ] Design: URL shortener
-- [ ] Design: AI chatbot platform at scale (with local‑first considerations)
+- [ ] Design: AI chatbot platform at scale (with local-first considerations)
 - [ ] Design: Pathchakra at 10,000 users
-- [ ] Design: Secure multi‑tenant SaaS automation platform
-- [ ] Mock system design interviews
+- [ ] Design: Secure multi-tenant SaaS automation platform
+- [ ] Mock system design sessions
+
+</details>
+
+<details>
+<summary>Weeks 87–88 · AI Application Architecture</summary>
+
+<br>
+
+> Patterns specific to AI-powered systems that you won't find in standard system design resources.
+
+- [ ] Streaming over SSE / WebSockets / HTTP chunked — how to stream LLM output to the browser
+- [ ] Background jobs and queues for long agent runs — never run a 30-second agent in a HTTP request
+- [ ] Idempotency and resumability of agent runs — what happens when the server dies mid-agent?
+- [ ] Multi-tenant prompt and key management — isolate prompts and API keys per customer
+- [ ] Fallback chains across providers — if Anthropic is down, fall back to OpenAI transparently
+- [ ] Feature flags for prompts and models — roll out a new model to 10% of users first
+- [ ] API design patterns for AI features: cancel (stop generation), retry (with backoff), partial results (stream what you have)
+- [ ] **Design:** End-to-end architecture for your Week 59–67 RAG + agent system at 1,000 concurrent users
 
 </details>
 
@@ -693,80 +987,114 @@
 ---
 
 <details>
-<summary>🚀 Phase 12 — DevOps + Deployment &nbsp;|&nbsp; Weeks 73–76</summary>
+<summary>🚀 Phase 12 — DevOps + LLMOps & Observability &nbsp;|&nbsp; Weeks 89–94</summary>
 
 <br>
 
 <details>
-<summary>Week 73–74 · Docker</summary>
+<summary>Weeks 89–90 · Docker</summary>
 
 <br>
 
 - [ ] Dockerfile for Python + Node apps
-- [ ] docker‑compose — app + DB + Redis + Ollama
-- [ ] Docker security — non‑root user, minimal base image
-- [ ] Secrets in Docker — never bake into image
+- [ ] docker-compose — app + DB + Redis + Ollama all together
+- [ ] Docker security — non-root user, minimal base image
+- [ ] Secrets in Docker — never bake into the image
 
 </details>
 
 <details>
-<summary>Week 75–76 · CI/CD + Monitoring</summary>
+<summary>Weeks 91–92 · CI/CD + Monitoring</summary>
 
 <br>
 
-- [ ] GitHub Actions — test → build → deploy
+- [ ] GitHub Actions — test → build → deploy pipeline
 - [ ] Railway / Render / Fly.io deployment
 - [ ] Enforce HTTPS — SSL certificate
-- [ ] AI API cost monitoring + spike alerts (for when you do use paid APIs)
 - [ ] Sentry — error tracking
 - [ ] UptimeRobot — uptime monitoring
 - [ ] Log management — what to log, what NOT to log (no passwords/tokens in logs)
 
 </details>
 
+<details>
+<summary>Weeks 93–94 · LLMOps & Observability (Production Grade)</summary>
+
+<br>
+
+> Your AI system is a black box without this. Make it observable.
+
+**Tracing & Monitoring**
+
+- [ ] Langfuse (self-hosted) — full tracing for every LLM call: input, output, latency, token cost
+- [ ] LangSmith — tracing + dataset management (LangChain ecosystem)
+- [ ] Helicone — lightweight proxy-based cost + latency tracking
+- [ ] Arize Phoenix — open-source ML + LLM observability
+- [ ] Braintrust — eval + tracing + dataset management in one
+
+**What to Track**
+
+- [ ] Token usage, cost, and latency per request and per user
+- [ ] Prompt and agent version per request — know which prompt produced which output
+- [ ] A/B testing prompts and models in production — measure, don't guess
+- [ ] Replay and debugging of failed runs — reproduce a bug from a trace
+
+**Drift & Regression**
+
+- [ ] Model upgrade drift — when the provider silently changes behavior
+- [ ] Prompt regression detection — does the new prompt break old test cases?
+- [ ] AI API cost monitoring + spike alerts
+
+- [ ] **Setup:** Full LLMOps stack for your deployed AI projects: tracing + evals + cost alerts
+
+</details>
+
 </details>
 
 ---
 
 <details>
-<summary>💼 Phase 13 — Portfolio + Job/Freelance Prep &nbsp;|&nbsp; Weeks 77–80</summary>
+<summary>💼 Phase 13 — Continue &nbsp;|&nbsp; Weeks 95–100</summary>
 
 <br>
 
 <details>
-<summary>Week 77–78 · Portfolio Polish</summary>
+<summary>Weeks 95–96 · Portfolio Polish</summary>
 
 <br>
 
-- [ ] GitHub — 8 pinned projects, great READMEs, live demos
-- [ ] LinkedIn — **"Backend Engineer | AI & Smart Automation"**
-- [ ] Case studies — "Here's the business problem I solved, with zero recurring AI cost"
+- [ ] GitHub — 8–10 pinned projects, great READMEs, live demos
+- [ ] LinkedIn — **"Backend & AI Automation Engineer"**
+- [ ] Case studies — "Here is the business problem I solved, the architecture I used, and the measurable result"
+- [ ] Highlight zero-recurring-cost solutions — "runs on your own server forever"
 - [ ] Personal portfolio site (React, deployed)
 
 </details>
 
 <details>
-<summary>Week 79 · Freelance Setup</summary>
+<summary>Weeks 97–98 · Freelance Setup</summary>
 
 <br>
 
-- [ ] Upwork profile — **AI Automation niche** (highlight: no‑token‑cost solutions)
-- [ ] Fiverr gig — "I will build a smart, self‑hosted automation tool for your business"
-- [ ] Pricing strategy — per project vs retainer
-- [ ] Proposal templates that showcase "forever free, runs on your own server"
+- [ ] Upwork profile — **AI Automation niche** (highlight: no-token-cost, self-hosted solutions)
+- [ ] Fiverr gig — "I will build a smart, self-hosted AI automation tool for your business"
+- [ ] Pricing strategy — per project vs retainer vs monthly maintenance
+- [ ] Proposal templates that showcase: "forever free, runs on your own server, your data never leaves"
+- [ ] Speak the client's language — not "RAG with pgvector" but "Your PDFs answer questions instantly, at zero monthly cost"
 
 </details>
 
 <details>
-<summary>Week 80 · Job Applications</summary>
+<summary>Weeks 99–100 · Job Applications + Interview Prep</summary>
 
 <br>
 
-- [ ] Platforms — Wellfound, Remote.co, LinkedIn
-- [ ] Target roles — Automation Engineer, AI Engineer, Backend Engineer (with automation focus)
-- [ ] DSA revision — top 50 LeetCode
-- [ ] Mock interview — technical + behavioral + system design
-- [ ] Network — Bangladeshi devs in remote jobs, automation communities
+- [ ] Platforms — Wellfound, Remote.co, LinkedIn Jobs
+- [ ] Target roles — AI Engineer, Automation Engineer, Backend Engineer (AI focus), Full Stack AI
+- [ ] DSA revision — top 50 LeetCode (focus: arrays, strings, trees, graphs)
+- [ ] Mock interview — technical (coding + system design) + behavioral
+- [ ] System design practice — AI chatbot at scale, RAG pipeline, multi-agent system
+- [ ] Network — Bangladeshi devs in remote jobs, AI and automation communities
 
 </details>
 
@@ -774,43 +1102,47 @@
 
 ---
 
-## 📁 Final Portfolio — 8 Projects (Cost‑Free Where Possible)
+## 📁 Final Portfolio — 10 Projects
 
-| #   | Project                   | Stack                                    | What it proves                       |
-| --- | ------------------------- | ---------------------------------------- | ------------------------------------ |
-| 1   | Prayer Time CLI           | Node.js                                  | Foundation ✅                        |
-| 2   | Blog API (JS)             | Express + TS + PostgreSQL                | Backend + Security + Tested          |
-| 3   | Blog API (Python)         | FastAPI + PostgreSQL                     | Python backend + Documented          |
-| 4   | AI Chatbot API            | OpenAI/Anthropic + FastAPI + AI Security | AI integration + security            |
-| 5   | Self‑hosted FAQ bot       | pgvector + Sentence‑Transformers         | Smart search, zero cost              |
-| 6   | Invoice processor (local) | Tesseract + Ollama + Python              | Local AI automation, no API bill     |
-| 7   | Pathchakra Platform       | Full Stack + AI layer                    | Real product                         |
-| 8   | Custom automation runner  | Python + YAML + Local tools              | Replace‑proof automation engineering |
+| #   | Project                   | Stack                                            | What It Proves                            |
+| --- | ------------------------- | ------------------------------------------------ | ----------------------------------------- |
+| 1   | Prayer Time CLI           | Node.js                                          | Foundation ✅                             |
+| 2   | Blog API (Node.js)        | Express + TS + PostgreSQL + Jest + Swagger       | Backend + Security + Tested + Documented  |
+| 3   | Blog API (Python)         | FastAPI + PostgreSQL + pytest                    | Python backend + Auto-documented          |
+| 4   | AI Chatbot API            | OpenAI/Anthropic + FastAPI + Security + Langfuse | AI integration + security + observability |
+| 5   | Semantic FAQ Bot          | pgvector + Sentence-Transformers + FastAPI       | Smart search, zero cost, self-hosted      |
+| 6   | RAG Knowledge Base        | LangGraph + Ollama + Chroma/pgvector             | Local RAG, no API bill, production-ready  |
+| 7   | Business Workflow Agent   | LangGraph + Tool Use + MCP + Human-in-the-loop   | Agentic system, reliability, safety       |
+| 8   | Invoice Processor (local) | Tesseract + Ollama + Python + PostgreSQL         | Local AI automation, zero token cost      |
+| 9   | Pathchakra Platform       | React + Express + PostgreSQL + AI layer          | Real full-stack product                   |
+| 10  | Custom Automation Runner  | Python + YAML + Local AI tools                   | Self-hosted, replace-proof automation     |
 
 ---
 
-## 🎯 What you become — after 80 weeks
+## 🎯 What You Become — After 100 Weeks
 
-- [ ] Backend Engineer — tested, documented, production-ready APIs
-- [ ] AI & Automation Engineer — "Automation Engineer — AI & Smart Tools" (local‑first, forever‑free pipeline builder)
-- [ ] Security-Aware Engineer — every layer protected, every input validated
+- **Backend Engineer** — tested, documented, production-ready APIs in both Node.js and Python
+- **AI Engineer** — LLM fundamentals, prompt/context engineering, RAG, agents, multimodal, evals, LLMOps
+- **AI Automation Engineer** — local-first, zero-token-cost pipeline builder; tools that run on your client's server forever
+- **Security-Aware Engineer** — every layer protected, every input validated, every AI output checked
 
-This combination is **extremely rare** and highly valued. I don't just build software; I build **systems that think and act without draining wallets.**
+This combination is **extremely rare** and highly valued. You don't just call APIs; you understand the models, control the costs, build the agents, and secure the entire stack.
 
 ---
 
 ## 🧭 Golden Rules
 
-1. **Build tools, don't just watch tutorials.** At least one deployed, self‑contained project per phase.
-2. **Security is a mindset, not a feature.** For every feature, ask — "How can this be attacked?"
+1. **Build tools, don't just watch tutorials.** At least one deployed, self-contained project per phase.
+2. **Security is a mindset, not a feature.** For every feature, ask: "How can this be attacked?"
 3. **Cost matters.** Prefer local models, embeddings, and caching. Use paid APIs only when they add value that justifies the price.
 4. **Speak the client's language.** Don't say "RAG with pgvector"; say "Your PDFs answer questions instantly, at zero monthly cost."
 5. **Deploy everything.** Running only on localhost is not a portfolio.
 6. **Test everything.** Untested code is unfinished code.
-7. **Document everything.** Code without docs is a trap for your future self and your clients.
-8. **English for everything.** README, commits, proposals — all in English.
-9. **Consistency > Intensity.** 4 hours every day beats 20 hours on weekends.
+7. **Evaluate everything.** Uneval'd AI features are unfinished features.
+8. **Document everything.** Code without docs is a trap for your future self and your clients.
+9. **English for everything.** READMEs, commits, proposals — all in English.
+10. **Consistency over intensity.** 4 hours every day beats 20 hours on weekends.
 
 ---
 
-_Last updated: January 2026 | Sabbir — Backend Engineer, AI & Smart Automation_
+_Last updated: May 2026 | Shabbir — Backend & AI Automation Engineer_
