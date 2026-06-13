@@ -1125,6 +1125,7 @@
 - **AI Engineer** — LLM fundamentals, prompt/context engineering, RAG, agents, multimodal, evals, LLMOps
 - **AI Automation Engineer** — local-first, zero-token-cost pipeline builder; tools that run on your client's server forever
 - **Security-Aware Engineer** — every layer protected, every input validated, every AI output checked
+- **Hardware + AI Extension** *Stage A:* IoT Backend (MQTT, TimescaleDB, Raspberry Pi) *Stage B:* Edge AI (TensorFlow Lite, ONNX, Jetson Nano)
 
 This combination is **extremely rare** and highly valued. You don't just call APIs; you understand the models, control the costs, build the agents, and secure the entire stack.
 
