@@ -31,6 +31,7 @@
 - [ ] What is a transpose (Aᵀ)
 - [ ] Identity matrix
 - [ ] Concept of linear transformation
+- [ ] Cosine Similarity — understanding vector similarity (crucial for Embeddings/LLMs)
 - [ ] Eigenvalues and Eigenvectors — concept only (not computation)
 
 ---
@@ -49,29 +50,52 @@
 
 ---
 
-## Phase 4 — Statistics & Probability (Week 13–18)
-> The language of understanding data. ML has nothing without data.
-> Resource: **StatQuest with Josh Starmer** (YouTube)
+## Phase 4 — Probability, Statistics & Information Theory (Week 13–20)
+> The core engine of AI. If you don't understand probability, AI remains a black box.
+> Resource: **StatQuest with Josh Starmer** (YouTube), **Khan Academy**
 
-- [ ] Mean, Median, Mode
+**1. Descriptive Statistics**
+- [ ] Mean, Median, Mode — when to use which
 - [ ] Variance and Standard Deviation
-- [ ] Normal Distribution (Bell curve)
-- [ ] What is probability — basic rules
-- [ ] Conditional Probability
-- [ ] Bayes Theorem — understanding the concept
-- [ ] Correlation vs Causation
 - [ ] What is overfitting — in statistical terms
+
+**2. Probability Foundations**
+- [ ] Basic rules and axioms of probability
+- [ ] Expectation (Expected Value) and Variance — mathematical definitions
+- [ ] Joint, Marginal, and Conditional Probability — deeply
+- [ ] Bayes Theorem — actual calculation and application
+
+**3. Probability Distributions**
+- [ ] Normal (Gaussian) Distribution (Bell curve)
+- [ ] Bernoulli and Binomial Distributions
+- [ ] Categorical Distribution
+- [ ] Softmax as a probability distribution over classes
+
+**4. Advanced Statistics & Estimation**
+- [ ] Maximum Likelihood Estimation (MLE) — how models actually learn
+- [ ] Maximum a Posteriori (MAP)
+- [ ] Correlation vs Causation
+- [ ] Evaluation Metrics: Precision, Recall, F1-Score, ROC-AUC
+
+**5. Information Theory**
+- [ ] Entropy — measuring uncertainty
+- [ ] Cross-Entropy Loss — comparing two distributions
+- [ ] KL Divergence — distance between distributions
+
+**6. Advanced Concepts**
+- [ ] Markov Chains — foundation for Sequence Models and Reinforcement Learning
 
 ---
 
-## Phase 5 — ML Math Connection (Week 19–22)
-> See where everything you learned actually appears in ML.
+## Phase 5 — ML Math Connection (Week 21–24)
+> See where everything you learned actually appears in applied ML.
 
-- [ ] What is a loss function — understand it with math
+- [ ] What is a loss function — MSE vs Cross-Entropy with math
 - [ ] How Gradient Descent works
-- [ ] Math behind Backpropagation — high level only
-- [ ] Softmax function
-- [ ] Sigmoid function and where it is used
+- [ ] Stochastic Gradient Descent (SGD) and Adam optimizer basics
+- [ ] Math behind Backpropagation — chain rule in action
+- [ ] Sigmoid function and Logistic Regression
+- [ ] How Softmax + Cross-Entropy work together in Classification
 - [ ] Manually trace the math of a simple neural network
 
 ---
@@ -83,8 +107,8 @@
 | Phase 1 — Algebra | 6 | | |
 | Phase 2 — Linear Algebra | 10 | | |
 | Phase 3 — Calculus | 7 | | |
-| Phase 4 — Statistics | 8 | | |
-| Phase 5 — ML Connection | 6 | | |
+| Phase 4 — Probability & Info Theory | 12 | | |
+| Phase 5 — ML Connection | 8 | | |
 
 ---
 
